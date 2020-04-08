@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face{
+  font-family: "BebasNeue";
+  src:url("/src/Components/Fonts/BebasNeue-Regular.eot") format("eot");
+  src:url("/src/Components/Fonts/BebasNeue-Regular.otf") format("otf");
+  src:url("/src/Components/Fonts/BebasNeue-Regular.ttf") format("ttf");
+  src:url("/src/Components/Fonts/BebasNeue-Regular.woff") format("woff");
+  src:url("/src/Components/Fonts/BebasNeue-Regular.woff2") format("woff2")
+}

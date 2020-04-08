@@ -1,0 +1,54 @@
+@font-face{
+    font-family: "BebasNeue";
+    src:url("/src/Components/Fonts/BebasNeue-Regular.eot") format("eot");
+    src:url("/src/Components/Fonts/BebasNeue-Regular.otf") format("otf");
+    src:url("/src/Components/Fonts/BebasNeue-Regular.ttf") format("ttf");
+    src:url("/src/Components/Fonts/BebasNeue-Regular.woff") format("woff");
+    src:url("/src/Components/Fonts/BebasNeue-Regular.woff2") format("woff2")
+}
+.MoviesTitle{
+    color:white;
+    margin-bottom: 0;
+    }
+.moviesoffered{
+   display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.CardMovie{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    height:350px;
+    width:230px;
+    padding: 10px;
+}
+.Poster{
+    width:100%;
+    height:200px;
+}
+.Moviedescription{
+    margin: 0;
+    margin-bottom: 0;
+}
+.Moviedescription h5{
+    color:#db202c;
+    margin:5px;
+    
+}
+.Moviedescription h6{
+    color:white;
+    margin:5px;
+    
+}
+.Moviedescription p{
+    color:white;
+    margin:5px;
+    
+}
+.delbutton{
+    background-color:#db202c;
+    color:white;
+    margin-top: 10px;
+}

@@ -1,0 +1,45 @@
+@font-face{
+    font-family: "BebasNeue";
+    src:url("/src/Components/Fonts/BebasNeue-Regular.eot") format("eot");
+    src:url("/src/Components/Fonts/BebasNeue-Regular.otf") format("otf");
+    src:url("/src/Components/Fonts/BebasNeue-Regular.ttf") format("ttf");
+    src:url("/src/Components/Fonts/BebasNeue-Regular.woff") format("woff");
+    src:url("/src/Components/Fonts/BebasNeue-Regular.woff2") format("woff2")
+}
+
+    input[type="radio"] {
+      /*  position: absolute;*/
+        width: 1px;
+        height: 1px;
+        visibility: hidden;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/18/Five-pointed_star.svg');
+        background-size: cover;
+        background-position: center;
+    }
+    
+    fieldset {
+        display: flex;
+    }
+    
+    .star {
+        width: 50px;
+        height: 50px;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/White_Stars_1.svg/1024px-White_Stars_1.svg.png');
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .active {
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Red_star.svg/1235px-Red_star.svg.png');
+    }
+   /* 
+    fieldset:hover .star {
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Red_star.svg/1235px-Red_star.svg.png'); 
+    }
+    
+    .star:hover ~ .star{
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Red_star.svg/1235px-Red_star.svg.png');
+    }*/
+    
+    
+    

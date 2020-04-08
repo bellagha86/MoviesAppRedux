@@ -1,0 +1,45 @@
+@font-face{
+    font-family: "BebasNeue";
+    src:url("/src/Components/Fonts/BebasNeue-Regular.eot") format("eot");
+    src:url("/src/Components/Fonts/BebasNeue-Regular.otf") format("otf");
+    src:url("/src/Components/Fonts/BebasNeue-Regular.ttf") format("ttf");
+    src:url("/src/Components/Fonts/BebasNeue-Regular.woff") format("woff");
+    src:url("/src/Components/Fonts/BebasNeue-Regular.woff2") format("woff2")
+}
+*{
+    background-color: black;
+}
+.Mouflix{
+    color:#db202c;
+    display: flex;
+    justify-content: center;
+    font-stretch: 100%;
+    font-size:80px;
+    font-weight:bold;
+    font-kerning: auto;
+    margin: 0;
+}
+.Subtitle{
+    color:white;
+    display: flex;
+    justify-content: center;
+    font-stretch: 100%;
+    font-size:20px;
+    font-weight:bold;
+    font-kerning: auto;
+    margin-bottom:25px ;
+}
+.headbody{
+    display: flex;
+    justify-content: center;
+}
+.Searchbar{
+    background-color: white;
+    width:60%;
+    height: 30px;
+}
+.Searchbutton{
+    background-color: red;
+    color: white;
+    margin-right: 50px;
+}
