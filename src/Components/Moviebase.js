@@ -3,6 +3,7 @@ import Rating from './Rating'
 import {connect} from "react-redux"
 import {deleteMovie} from "../JS/Actions/actions"
 import MovieModal from'./MovieModal'
+import { Link} from "react-router-dom"
 
  function Moviebase({ deleteMovie,moviesItems }) {
   return (
@@ -14,14 +15,13 @@ import MovieModal from'./MovieModal'
             <h5>{el.name}</h5>
             <h6>With {el.stars}</h6>
             <p>Directed by: {el.direction}</p>
-            <Rating rating={el.rating}/>
+            <Rating rating={el.rating}/></div><div className="btncontainer">
             <button onClick={()=>{deleteMovie(el.id)}}
             className="delbutton">Delete</button>
-        
-          </div>
           <MovieModal
-          movie={moviesItems}/>
-        </div>
+          movie={el}/>
+          <Link to={`/description/${el.id}`}>Read Description</Link>
+        </div></div>
         
       ))}
       

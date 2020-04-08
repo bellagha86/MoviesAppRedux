@@ -51,4 +51,11 @@
     background-color:#db202c;
     color:white;
     margin-top: 10px;
+    border-style: none;
+    border-radius: 10%;
+}
+.btncontainer a{
+    color:#db202c;
+    text-decoration-line: none;
+    
 }
